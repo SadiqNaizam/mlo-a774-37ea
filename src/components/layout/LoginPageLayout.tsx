@@ -19,7 +19,7 @@ const LoginPageLayout: React.FC<LoginPageLayoutProps> = ({ children, className }
   return (
     <main
       className={cn(
-        'flex flex-col items-center justify-center min-h-screen bg-background p-4',
+        'dark flex flex-col items-center justify-center min-h-screen bg-background p-4',
         className
       )}
     >
